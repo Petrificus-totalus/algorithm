@@ -55,3 +55,7 @@ queue.enqueue(5);
 queue.enqueue(6);
 queue.enqueue(7);
 console.log(game(queue, 5));
+
+module.exports = {
+  Q: Queue,
+};
